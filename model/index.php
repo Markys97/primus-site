@@ -7,7 +7,4 @@ $req= $db->prepare($query);
 $req->execute();
 
 $users= $req->fetchAll();
-
-
-
 echo sizeof($users);
